@@ -8,7 +8,31 @@ body{
 }
 
 .container{
-    width: 1047px;
+    max-width: 1047px;
     margin: auto;
 
+}
+
+/* nabvar css */
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin: auto;
+    align-items: center;
+    padding: 10px 0;
+}
+.title{
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.links a {
+    text-decoration: none;
+    color: #3A3A3A;
+    padding: 8px;
+    margin: 10px 0;
+    display: inline-block;
 }
