@@ -15,7 +15,7 @@ body{
 
 /* nabvar css */
 
-#navbar {
+.fluid-container {
     display: flex;
     justify-content: space-between;
     max-width: 1240px;
@@ -35,4 +35,18 @@ body{
     padding: 8px;
     margin: 10px 0;
     display: inline-block;
+}
+/* hero section css */
+.btn {
+    background: #E02C6D;
+    border-radius: 41px;
+    border: none;
+    outline: none;
+   
+    color: #fff;
+    font-weight: 600;
+    margin: 30px 0;
+
+    padding: 10px 24px;
+gap: 8px;
 }
