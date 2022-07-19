@@ -10,8 +10,16 @@
     }
     .fluid-container{
         width: 100%;
+        /* flex-direction: column-reverse; */
+        flex-wrap: wrap;
+    }
+    .fluid-container-hero{
+        width: 100%;
         flex-direction: column-reverse;
         flex-wrap: wrap;
+    }
+    .fluid-container-hero img{
+        width: 80%;
     }
     .container{
         width: 100%;

@@ -29,6 +29,14 @@ p{
     align-items: center;
     padding: 10px 0;
 }
+.fluid-container-hero {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin: auto;
+    align-items: center;
+    padding: 10px 0;
+}
 .title{
     color: #3A3A3A;
     font-size: 24px;
@@ -59,32 +67,34 @@ p{
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: ceter; */
    
 }
 
-    .half-width h1 {
-        font-size: 52px;
+
+.half-width h1 {
+    font-size: 3.25rem;
+}
+
+    .btn {
+        background: #E02C6D;
+        border-radius: 41px;
+        border: none;
+        outline: none;
+        display: inline-block;
+        color: #fff;
+        font-weight: 600;
+        margin: 30px 0;
+        width: 180px;
+        padding: 10px 24px;
+        gap: 8px;
     }
 
-.btn {
-    background: #E02C6D;
-    border-radius: 41px;
-    border: none;
-    outline: none;
-   display: inline-block;
-    color: #fff;
-    font-weight: 600;
-    margin: 30px 0;
-
-    padding: 10px 24px;
-gap: 8px;
-}
-
-.img-bg{
-    background: url(../images/products/Circle\ design.svg);
-    background-repeat: no-repeat;
-}
+    .img-bg {
+        background: url(../images/products/Circle\ design.svg);
+        background-repeat: no-repeat;
+        width: 78%;
+    }
 
 /* logo
 
@@ -110,8 +120,13 @@ gap: 8px;
 }
 .collections {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+i.fa-brands {
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 1rem;
 }
 
 .more {
@@ -165,6 +180,8 @@ color: #0A0826;
     font-weight: 600;
     display: inline-block;
     border: none;
+    width: 210px;
+    
 }
 
 #footer{
@@ -177,5 +194,6 @@ justify-content: center;
 }
 .footer {
     text-align: center;
+    padding: 30px 0;
 }
 
