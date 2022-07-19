@@ -125,3 +125,43 @@ gap: 8px;
 .ratting {
     color: #FB8200;
 }
+
+/* blog */
+#blog {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.content{
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content h2{
+    font-weight: 700;
+font-size: 38px;
+line-height: 60px;
+color: #0A0826;
+}
+
+.content p {
+    color: #6C6C6C;
+    font-weight: 700;
+    line-height: 28px;
+    width: 80%;
+    margin: 18px 0;
+}
+
+.blog-btn {
+    padding: 10px 24px;
+    gap: 8px;
+    background: #E02C6D;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    border: none;
+}
