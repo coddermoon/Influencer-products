@@ -166,3 +166,16 @@ color: #0A0826;
     display: inline-block;
     border: none;
 }
+
+#footer{
+background: black;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.footer {
+    text-align: center;
+}
+
