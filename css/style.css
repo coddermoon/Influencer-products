@@ -95,3 +95,11 @@ gap: 8px;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
 }
+
+.more {
+    position: absolute;
+    right: 0px;
+    bottom: -42px;
+    color: #E02C6DDE;
+    font-weight: 700;
+}
