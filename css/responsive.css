@@ -1,0 +1,39 @@
+/* for tablet */
+
+/* product section responsive code  */
+
+@media ( max-width:992px) {
+
+    #header{
+        height: 100%;
+        margin: auto;
+    }
+    .fluid-container{
+        width: 100%;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .container{
+        width: 100%;
+    }
+    .collections{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .half-width{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+
+}
+
+/* @mobile */
+
+@media (max-width:768px){
+    .collections{
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+    }
+}
+
