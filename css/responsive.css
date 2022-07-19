@@ -25,6 +25,10 @@
     .menu{
         display: none;
     }
+    .logos{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 
 }
 
