@@ -97,9 +97,8 @@ gap: 8px;
 }
 
 .more {
-    position: absolute;
-    right: 0px;
-    bottom: -42px;
     color: #E02C6DDE;
     font-weight: 700;
+    text-align: right;
+    display: inherit;
 }
